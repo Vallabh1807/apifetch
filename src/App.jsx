@@ -1,9 +1,21 @@
-import React from 'react'
+import axios from "axios";
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import MainRouter from "./routing/MainRouter";
+import ProductCard from "./components/ProductCard";
 
 const App = () => {
+  
+  
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Navbar />
+      <MainRouter />
 
-export default App
+
+    </div>
+  );
+};
+
+export default App;
