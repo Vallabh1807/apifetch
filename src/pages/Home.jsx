@@ -37,7 +37,7 @@ const Home = () => {
     <>
       <div>
         <div className="h-screen w-full bg-fuchsia-200 pt-10 flex">
-          <div className="h-[450px] w-[320px] rounded-2xl overflow-hidden mx-40 relative bg-purple-300">
+          <div className="h-[450px] w-[320px] rounded-2xl overflow-hidden mx-40 relative bg-white shadow-lg">
             {product.length > 0 && product[currentIndex] ? (
               <img
                 className="h-full w-full object-contain"
