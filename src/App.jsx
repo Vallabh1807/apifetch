@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import MainRouter from "./routing/MainRouter";
 import ProductCard from "./components/ProductCard";
+import Footer from "./components/Footer";
 
 const App = () => {
   
@@ -12,6 +13,7 @@ const App = () => {
     <div>
       <Navbar />
       <MainRouter />
+      <Footer />
 
 
     </div>
