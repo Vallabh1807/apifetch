@@ -75,7 +75,7 @@ const Home = () => {
           </div>
 
           <div className="">
-            <h1 className="text-5xl  font-bold leading-snug mb-4">
+            <h1 className="text-4xl  font-bold leading-snug mb-4">
               We're unveiling Chic,
               <br />
               your ultimate fashion <br />
